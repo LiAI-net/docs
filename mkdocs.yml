@@ -1,0 +1,31 @@
+site_name: LiAI
+strict: true
+site_url: "https://docs.li-ai.net"
+repo_url: https://github.com/LiAI-net/docs
+repo_name: LiAI-net/docs
+edit_uri: https://github.com/LiAI-net/docs/edit/main/docs/getting-started.md
+use_directory_urls: false
+theme:
+  name: material
+  # name: readthedocs
+  custom_dir: overrides
+  language: en
+  features:
+    - navigation.tabs
+  favicon: "img/favicon.svg"
+  palette:
+    primary: indigo
+markdown_extensions:
+  - codehilite
+  - admonition
+  - toc:
+      permalink: true
+extra:
+  homepage: https://docs.li-ai.net/
+nav:
+  - Home: index.md
+  - Learn:
+      - Getting started: Learn/Getting-Started.md
+
+  - Integrations:
+      - Slack: Integrations/Slack.md
