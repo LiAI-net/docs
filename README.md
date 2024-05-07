@@ -1,4 +1,4 @@
-# Docs of LiAI
+# Docs of LiAI,
 
 ## Local
 1. Run `make deploy-local`
