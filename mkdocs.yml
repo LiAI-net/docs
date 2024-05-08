@@ -26,6 +26,6 @@ nav:
   - Home: index.md
   - Learn:
       - Getting started: Learn/Getting-Started.md
-
+      - What Is ERP: Learn/What-Is-ERP.md
   - Integrations:
       - Slack: Integrations/Slack.md
